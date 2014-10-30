@@ -1,0 +1,35 @@
+{
+  "name": "HarmonyJS",
+  "version": "0.0.1",
+  "description": "Experimental javascript music theory library",
+  "homepage": "https://github.com/williamcspace/harmony.js",
+  "bugs": "https://github.com/williamcspace/harmony.js/issues",
+  "author": {
+    "name": "William Chan",
+    "email": "williamc0206@gmail.com",
+    "url": "https://github.com/williamcspace/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williamcspace/harmony.js.git"
+  },
+  "keywords": [
+    "harmony", "music theory"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "src/harmony.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.9",
+    "gulp-concat": "^2.4.1",
+    "gulp-jshint": "^1.8.6",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1"
+  },
+  "engines": {},
+  "scripts": {}
+}
