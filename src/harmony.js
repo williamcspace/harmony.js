@@ -1,5 +1,12 @@
-(function (window) {
-  window.harmony = {
-    version: '0.0.1'
-  };
-})(window);
+'use strict';
+var Note = require('./core/Note');
+
+class Harmony {
+  constructor() {}
+
+  note(note){
+    return new Note(note);
+  }
+}
+
+module.exports = new Harmony();
